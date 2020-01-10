@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consulitate | Website Development, domain registration, hosting & support</title>
+
+    <script src="https://kit.fontawesome.com/8ee279e221.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container" id="site-content">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="./index.html"><strong>CONSULI</strong></strong><i>TATE</i></a>
+
+            <!-- Button for mobile device: START -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Button for mobile device: STOP -->
+
+            <!-- Navbar: START -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navbar: END -->
+
+        </nav>
+        <!-- Hero section: START -->
+        <div class="jumbotron page-section">
+            <h1 class="display-4">Support.</h1>
+            <p class="lead">Is your website down? Are you having email problems or maybe just something in general, we
+                are here for you.</p>
+            <p class="lead">Please complete form below. Provide as much information as possible, the more information
+                the faster we can solve your query.</p>
+            <form name="support" class="needs-validation mb-3" novalidate netlify netlify-honeypot="bot-field"
+                id="support-form" action="/success.html">
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Your Name"
+                            name="name" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input type="email" class="form-control" id="validationCustom02"
+                            placeholder="Your Email Address" name="email" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4 mb-3">
+                        <select name="category" class="form-control" id="sel1">
+                            <option>I need help with...</option>
+                            <option>Website</option>
+                            <option>Email</option>
+                            <option>Support</option>
+                            <option>General</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"
+                            placeholder="Please provide as much information as possible"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label>Screenshot:</label>
+                        <input type="file" class="form-control-file" id="myfile" name="myfile">
+                    </div>
+                    <button class="btn btn-dark mb-3" type="submit"><i class="fas fa-arrow-right"></i> Log support
+                        query</button>
+            </form>
+
+        </div>
+
+        
+    
+    <!-- Hero section: END -->
+
+
+    </div>
+    <!-- Footer: START -->
+    <div class="card " id="footer">
+        <div class="card-footer text-muted text-left">
+            <i class="far fa-copyright"></i> 2019
+        </div>
+    </div>
+    <!-- Footer: STOP -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
